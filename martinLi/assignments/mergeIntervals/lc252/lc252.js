@@ -6,6 +6,9 @@
 /**
  * sort by start times
  *
+ * Input:
+[[0,30],[5,10],[15,20]]
+Output: false
  */
 
 class Interval {
@@ -27,6 +30,16 @@ const can_attend_all_appointments = function (intervals) {
   //let curr_start = intervals[0].start;
   //let curr_end = intervals[0].end;
 
+  //console.log(intervals[0].start, "start times");
+
+  /**
+   * [[7, 10] [10, 14], [9, 12]]
+   *  [[7, 10] [9, 12] [ 10, 14]]
+   *
+   *  [7, 10]
+   *10 >= 9 true
+   => false
+   */
   for (let i = 0; i < intervals.length - 1; i++) {
     if (intervals[i].end >= intervals[i + 1].start) {
       //console.log(intervals[i].start);
