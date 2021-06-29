@@ -106,8 +106,8 @@ program containing the following:
 #### 06/03 (Thur):
 
 - "Two Pointers" Continued: P2P Mock Interview ( Each Pair Choose Two! )
-  - [] Remove Duplicates (easy): LC #26
-  - [] Squaring a Sorted Array (easy): LC #977
+  - [X] Remove Duplicates (easy): LC #26
+  - [X] Squaring a Sorted Array (easy): LC #977
   - [] Triplet Sum to Zero (medium): LC #15
   - [X] Triplet Sum Close to Target (medium): LC #16
 
@@ -186,7 +186,7 @@ program containing the following:
 
 #### 06/21 (Mon):
 - Intro to "Heaps" Pattern & Discussion
-  - [] Find the Median of a Number Stream (medium): LC #295
+  - [X] Find the Median of a Number Stream (medium): LC #295
 - "Heaps" Continued ( *No Luck This Time, Only One Problem To Choose From! )
   - [] Sliding Window Median (hard): LC #480
 - Intro to "Subsets" Pattern & Discussion
